@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("./partials/head") %>
+<body>
+
+    <%- include("./partials/header") %>
+
+    <!-- Formulario - Login -->
+    <center>
+        <div class="form-formulario1">
+            <form action="login.html" method="post">
+                <p class="form-linea1">
+                    <input 
+                        type="text" 
+                        placeholder="Nombre de usuari@" 
+                        name="nombreUsuario"
+                        pattern="[a-z\d\.]{6,15}"
+                        title="El Nombre de usuario no puede contener mayusculas ni caracteres especiales
+                                / El Nombre de usuario recibe minio 6 hasta 15 caracteres"
+                        id="username"
+                        required
+                        >
+                </p>
+                <p class="form-linea1">
+                    <input type="password" placeholder="Contraseña" name="password1" required>
+                </p> <br>
+
+                
+                <button class="form-button-ingresar" type="submit">Enviar</button> <br><br>
+
+                <button> <a href="/">Regresar al home</a> </button>
+
+            </form>
+        </div>
+    </center>
+
+    <%- include("./partials/footer") %>
+     
+</body>
+</html>
