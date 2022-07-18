@@ -8,14 +8,16 @@
             <center>
                 <div class="form-formulario1">
                     <form action="register.html" method="post">
+                        
                         <p class="form-linea1">
-                            <input type="text" placeholder="Nombre y apellido" name="nombreApellido" required>
+                            <label>* Nombre y Apellido :</label>
+                            <input type="text" name="nombreApellido" required>
                         </p>
     
                         <p class="form-linea1">
+                            <label>* Nombre de usuario :</label>
                             <input 
                                 type="text" 
-                                placeholder="Nombre de usuari@" 
                                 name="nombreUsuario"
                                 pattern="[a-z\d\.]{6,15}"
                                 title="El Nombre de usuario no puede contener mayusculas ni caracteres especiales
@@ -27,30 +29,10 @@
     
                         <!-- Quitamos la etiqueta label y utilizamos solamente la etiqueta p -->
                         <!-- Si hay que colocarla iria antes del input y después de su cierre -->
-                        <p class="form-linea1"> 
-                            <input type="date"  placeholder="Fecha de nacimiento" name="fechaNacimiento" required>
-                        </p>
-                        
-                        <p class="form-linea1"> <input type="text" placeholder="Domicilio" name="domicilio" required></p>
-                        
-                        <p class="form-linea1">Perfil del usuario</p>
-                        <p class="form-linea2">
-                            <input type="radio" name="Comprador" value="Comprador"> Comprador
-                            <input type="radio" name="Vendedor" value="Vendedor"> Vendedor
-                        </p>
-                        
-                        <!-- Categorías de interés (puede elegir más de una) -->  
-                        
-                        <p class="form-linea1">Intereses</p>
-                        <p class="form-linea2"> <input type="checkbox" name="interes1" value="lujo"> Carros de lujo</p>
-                        <p class="form-linea2"> <input type="checkbox" name="interes2" value="deportivos"> Carros deportivos</p>
-                        <p class="form-linea2"> <input type="checkbox" name="interes3" value="camionetas"> Camionetas</p>
-                        <p class="form-linea2"> <input type="checkbox" name="interes4" value="carga"> Carros de carga</p>
-                        <p class="form-linea2"> <input type="checkbox" name="interes5" value="familiar"> Carro Familiar</p>
-                        
-                        
+                       
                         <p class="form-linea1"> Foto de usuario
                             <input type="file" name="foto" accept=".jpg">
+                            <label>No es obli</label>
                         </p>
     
                         <p class="form-linea1">
@@ -72,11 +54,12 @@
                             <input type="password" name="password2" required>
                         </p>
     
-                        <p class="form-linea1">
-                            <button type="reset">Borrar</button>
-                            <button type="submit">Enviar</button>
-                            <button> <a href="/home">Regresar al home</a> </button>
-                        </p>
+                        <button class="form-button-ingresar" type="reset">Borrar</button>
+                        <br><br>
+                        <button class="form-button-ingresar" type="submit">Enviar</button>
+                        <br><br>
+                        <button class="form-button-ingresar"> <a href="/home">Regresar al home</a> </button>
+
                     </form>
                 </div>
             </center>
