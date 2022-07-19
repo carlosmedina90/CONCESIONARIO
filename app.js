@@ -5,7 +5,6 @@ const app = express()
 const rutaMain = require("./routes/mainRouters");
 
 
-
 //Motor de plantillas
 app.set("view engine","ejs")
 
