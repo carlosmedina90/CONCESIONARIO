@@ -19,8 +19,18 @@
 
 
 .form-button-ingresar:hover{
-    background-color: #0022AA;
+    background-color: #ff4700;
     color: white;
+    text-decoration: none;
+}
+
+.form-button-ingresar a{
+    text-decoration: none;
+    color:black;
+}
+
+.form-button-ingresar a:hover{
+    color:white;
 }
 
 .form-linea1{
