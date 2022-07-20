@@ -5,64 +5,61 @@
     <%- include("./partials/header") %>
 
             <!-- Formulario - Register -->
-            <center>
-                <div class="form-formulario1">
-                    <form action="register.html" method="post">
-                        
-                        <p class="form-linea1">
-                            <label>* Nombre y Apellido :</label>
-                            <input type="text" name="nombreApellido" required>
-                        </p>
-    
-                        <p class="form-linea1">
-                            <label>* Nombre de usuario :</label>
-                            <input 
-                                type="text" 
-                                name="nombreUsuario"
-                                pattern="[a-z\d\.]{6,15}"
-                                title="El Nombre de usuario no puede contener mayusculas ni caracteres especiales
-                                        / El Nombre de usuario recibe minio 6 hasta 15 caracteres"
-                                id="nombreUsuario"
-                                required
-                                >
-                        </p>
-    
-                        <!-- Quitamos la etiqueta label y utilizamos solamente la etiqueta p -->
-                        <!-- Si hay que colocarla iria antes del input y después de su cierre -->
-                       
-                        <p class="form-linea1"> Foto de usuario
-                            <input type="file" name="foto" accept=".jpg">
-                            <label>No es obli</label>
-                        </p>
-    
-                        <p class="form-linea1">
-                            <label>Arma tú contraseña:</label>
-                            <input 
-                                type="password"
-                                placeholder="Contraseña" 
-                                name="password1"
-                                pattern="[a-z\d\.]{8,10}"
-                                title="El Nombre de usuario no puede contener mayusculas 
-                                        ni caracteres especiales / El Nombre de usuario 
-                                        recibe minimo 8 hasta 10 caracteres"
-                                id="password1"
-                                required>
-                        </p>
-    
-                        <p class="form-linea1">
-                            <label>Confirmar Contraseña:</label>
-                            <input type="password" name="password2" required>
-                        </p>
-    
-                        <button class="form-button-ingresar" type="reset">Borrar</button>
-                        <br><br>
-                        <button class="form-button-ingresar" type="submit">Enviar</button>
-                        <br><br>
-                        <button class="form-button-ingresar"> <a href="/home">Regresar al home</a> </button>
+            
+            <div class="form-formulario1">
+                <form action="register.html" method="post">
+                    
+                    <p class="form-linea1">
+                        <label>* Nombre y Apellido :</label>
+                        <input type="text" name="nombreApellido" required>
+                    </p>
 
-                    </form>
-                </div>
-            </center>
+                    <p class="form-linea1">
+                        <label>* Nombre de usuario :</label>
+                        <input 
+                            type="text" 
+                            name="nombreUsuario"
+                            pattern="[a-z\d\.]{6,15}"
+                            title="El Nombre de usuario no puede contener mayusculas ni caracteres especiales
+                                    / El Nombre de usuario recibe minio 6 hasta 15 caracteres"
+                            id="nombreUsuario"
+                            required
+                            >
+                    </p>
+
+                    <!-- Quitamos la etiqueta label y utilizamos solamente la etiqueta p -->
+                    <!-- Si hay que colocarla iria antes del input y después de su cierre -->
+                    
+                    <p class="form-linea1"> Foto de usuario
+                        <input type="file" name="foto" accept=".jpg">
+                    </p>
+
+                    <p class="form-linea1">
+                        <label>Arma tú contraseña:</label>
+                        <input 
+                            type="password"
+                            placeholder="Contraseña" 
+                            name="password1"
+                            pattern="[a-z\d\.]{8,10}"
+                            title="El Nombre de usuario no puede contener mayusculas 
+                                    ni caracteres especiales / El Nombre de usuario 
+                                    recibe minimo 8 hasta 10 caracteres"
+                            id="password1"
+                            required>
+                    </p>
+
+                    <p class="form-linea1">
+                        <label>Confirmar Contraseña:</label>
+                        <input type="password" name="password2" required>
+                    </p>
+                    
+                    <button class="form-button-ingresar" type="reset">Borrar</button>
+                    <button class="form-button-ingresar" type="submit">Enviar</button>
+                    <button class="form-button-ingresar"> <a href="/">Home</a> </button>
+                    
+                </form>
+            </div>
+            
     
             <%- include("./partials/footer") %>
 
