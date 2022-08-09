@@ -1,0 +1,10 @@
+[{"id":1,"Marca":"Toyota","Modelo":"Corolla","Cilindraje":82,"Precio":"$0.37"},
+    {"id":2,"Marca":"GMC","Modelo":"Acadia","Cilindraje":100,"Precio":"$4.74"},
+    {"id":3,"Marca":"Honda","Modelo":"Pilot","Cilindraje":8,"Precio":"$7.00"},
+    {"id":4,"Marca":"Jeep","Modelo":"Cherokee","Cilindraje":30,"Precio":"$2.62"},
+    {"id":5,"Marca":"Saturn","Modelo":"VUE","Cilindraje":63,"Precio":"$4.13"},
+    {"id":6,"Marca":"Buick","Modelo":"Riviera","Cilindraje":31,"Precio":"$1.86"},
+    {"id":7,"Marca":"Volkswagen","Modelo":"Golf","Cilindraje":58,"Precio":"$5.16"},
+    {"id":8,"Marca":"Volkswagen","Modelo":"Golf","Cilindraje":87,"Precio":"$3.71"},
+    {"id":9,"Marca":"Chrysler","Modelo":"Town & Country","Cilindraje":49,"Precio":"$8.31"},
+    {"id":10,"Marca":"Jeep","Modelo":"Cherokee","Cilindraje":1,"Precio":"$3.51"}]

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box ;
+    
+}
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box ;
+    
+}
+body{
+    font-family: sans-serif;
+}
+
+.button{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid  #7c1e24;
+    color: rgb(153, 150, 150);
+    text-decoration: none;
+    background: #7c1e24;
+}
+.colores{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid  red;
+    color: rgb(153, 150, 150);
+    text-decoration: none;
+    background: red;
+
+}
+
+.imagen-about-us{
+    width: 48%;
+}
+
+.contenedor-Vencar.contenido-textos{
+    width: 48%;
+}
+.contenido-textos h3{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.Detail.contenedor.h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+
+/* .galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+
+}
+
+.Detail.CAR1{
+    text-align: right;
+}
+
+ 
+
+.contenedor-Vencar{
+    display: flex;
+    justify-content: space-evenly ;
+} */
+/* .button{
+    background-color: #7c1e24;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffff;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 6px 20px;
+    text-decoration: none;
+}  */
+
