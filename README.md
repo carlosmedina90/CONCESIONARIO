@@ -37,5 +37,5 @@ https://fonts.google.com/
 
 ## Seguimiento plan de trabajo : TRELLO
 https://trello.com/invite/b/CPXcsTEE/1c986f24e7fc5e05928edd1666cf5c32/proyecto-integrador
-
+Nuevo PDF con la planificación del proyecto Diagrama Concesionario (En trello).
 
